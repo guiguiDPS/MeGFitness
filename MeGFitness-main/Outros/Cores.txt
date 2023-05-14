@@ -1,0 +1,7 @@
+Cores em Hexadecimal:
+
+#FFED48 (Amarelo)
+#20052C (Roxo)
+
+#F5A623 (Laranja)
+#9B59B6 (Lílas)

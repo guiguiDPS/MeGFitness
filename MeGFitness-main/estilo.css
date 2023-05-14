@@ -1,0 +1,1345 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+/* HEADER */
+.box{
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(32, 5, 44); 
+    border-radius: 30px;
+}
+
+.nav-link > h2{
+    font-size: 25px;
+    color: #FFED48;
+}
+
+.nav-link > h2:hover{
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 1px 1px 0px #000;
+    transition: 0.2s;
+}
+
+.btn{
+    background-color: #FFED48;
+    border-radius: 30px;
+    font-size: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #20052C;
+    border: 3px groove #FFED48;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+/* FOOTER */
+.linha{
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.amarelo{
+    color: #FFED48;
+}
+
+.risco{
+    border-top: 1px solid #FFED48;
+    visibility: hidden;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#icones > li > a > i:hover {
+    color: #FFED48;
+}
+
+.info{
+    margin-top: 1rem;
+}
+
+.div-info{
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+.div-icones{
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+.div-links{
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+#float_btn
+{
+	position: fixed;
+    font-size: 50px;
+	bottom: 10vh;
+	right: 3vw;
+	cursor: pointer;
+	color:#ffffff;
+	text-shadow: 1px 1px 0px #000;
+}
+
+#float_btn:hover
+{
+	color: #6fcd43;
+	text-shadow: 1px 1px 0px #000;
+	transition: 0.2s;
+}
+
+#float_btn_fundo{
+    position: fixed;
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+	bottom: 8vh;
+	right: 3.2vw;
+    background-color: #6fcd43;
+}
+
+#float_btn_fundo:hover{
+    background-color: #ffffff;
+    transition: 0.2s;
+}
+
+/* INDEX */
+#carrosel{
+    width: 80%;
+    margin-left: 10%;
+}
+
+.img_carrosel{
+    border-radius: 30px;
+    height: 100vh;
+    border: 3px groove #20052C;
+}
+
+.titulo{
+    color: #FFED48;
+    text-shadow: 2px 2px #000;
+}
+
+.caixa_promocao{
+    background-color: #beb8c0;
+    border-radius: 30px;
+}
+
+.img_promocao{
+    border-radius: 30px;
+    border: 2px groove #20052C
+}
+
+#btn_promocao{
+    font-size: 20px;
+}
+
+/* PLANOS */
+.row_subtitulo{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#subtitulo{
+    font-size: 25px
+}
+
+#subtitulo_red{
+    color: #ff0000;
+    text-shadow: 1px 1px #FFED48;
+    font-size: 25px
+}
+
+.row_beneficios{
+    background-color: #D9D9D9;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 40px;
+    font-size: 25px;
+    color: #000;
+}
+
+.beneficios_red{
+    color: #ff0000;
+    text-shadow: 2px 2px #FFED48;
+}
+
+.preco{
+    font-size: 15px;
+    text-decoration: underline;
+}
+
+.encaminho{
+    color: #FFED48;
+    text-shadow: 2px 2px #000;
+    font-size: 20px;
+}
+
+/* SOBRE */
+.img_sobre{
+    border-radius: 30px;
+    border: 2px groove #20052C
+}
+
+/* CONTATO */
+#mapa{
+    border-radius: 30px;
+    height: 50vh;
+    width: 80%;
+    margin-left: 10%;
+    border: 0;
+}
+
+#icon_ende{
+    font-size: 20px
+}
+
+#endereco{
+    font-size: 20px;
+}
+
+#nome, #email, #telefone, #assunto
+{
+    border-radius: 30px;
+}
+
+#mensagem{
+    width:100%;
+    border-radius: 30px;
+	resize:none;
+    height: 10rem;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* IMC */
+.quadro{
+    background-color:  #ffffff00;
+    border-radius: 30px;
+    text-align: center;
+    width: 40%;
+    border: 10px solid #FFED48;
+}
+
+textarea,input{
+    text-align: center;
+    font-weight: bold;
+    border: 5px inset #000000;
+    border-radius: 30px;
+}
+
+#resultado{
+	width:100%;
+    font-size: 25px;
+    height: 20vh;
+	resize:none;
+    vertical-align:middle;
+    line-height: 10vh;
+    overflow: hidden;
+}
+
+input
+{
+	height: 5vh;
+}
+
+.input_campo
+{
+	width: 100%;
+    font-size: 25px;
+}
+
+@media (min-width: 0px) and (max-width: 374.98px) {
+/* HEADER */
+.navbar-toggler{
+    background-color: #FFED48;
+    margin-right: 1rem !important;
+}
+.nav-link > h2{
+    font-size: 15px;
+}
+
+.nav-link > h2:hover{
+    font-size: 18px;
+}
+
+.btn{
+    font-size: 15px;
+}
+
+/* FOOTER */
+#icones > li > a > i{
+    font-size: 20px;
+}
+
+.div-info{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-size: 20px;
+    -ms-flex-order: -1;
+    order: -1;
+}
+
+.div-icones{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    -ms-flex-order: 1;
+    order: 1;
+    margin-bottom: 1rem !important;
+}
+
+.div-links{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    font-size: 20px;
+    -ms-flex-order: 0;
+    order: 0;
+}
+
+.risco{
+    visibility: visible;
+    -ms-flex-order: 0;
+    order: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.info, #copy{
+    font-size: 15px;
+}
+
+#float_btn
+{
+    font-size: 40px;
+	bottom: 15vh
+}
+
+#float_btn_fundo{
+    height: 30px;
+    width: 30px;
+	bottom: 13vh;
+	right: 3.5vw;
+}
+
+/* INDEX */
+.box{
+    width: 96%;
+    margin-left: 2%;
+}
+
+#carrosel{
+    width: 96%;
+    margin-left: 2%;
+}
+
+.img_carrosel{
+    height: 60vh;
+}
+
+.titulo{
+    font-size: 25px;
+}
+
+.caixa_promocao{
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    margin-bottom: 1.5rem !important;
+    margin-top: 1.5rem !important;
+}
+
+.img_promocao{
+    width: 200px;
+    height: 200px;
+}
+
+.caixa_promocao > h4{
+    font-size: 18px;
+    color: #000;
+}
+
+/* PLANOS */
+.row_subtitulo{
+    width: 96%;
+    margin-left: 2%;
+}
+
+#titulo{
+    font-size: 20px;
+}
+
+.row_subtitulo > .col-3{
+    padding-left: 0rem!important;
+}
+
+#subtitulo{
+    font-size: 15px;
+}
+
+#subtitulo_red{
+    font-size: 15px;
+    text-align: center !important;
+    text-align: center !important;
+    margin-left: 0rem!important;
+}
+
+.row_beneficios{
+    border-radius: 30px;
+    width: 100%;
+    margin-left: 0;
+    font-size: 15px;
+    margin-bottom: 1rem !important;
+}
+
+.row_beneficios > .col-6{
+    padding-left: 1rem!important;
+}
+
+.row_beneficios > .col-3{
+    padding-left: 0rem!important;
+    padding-right: 0rem!important;
+}
+
+
+.row_beneficios > div > h2{
+    font-size: 14px;
+}
+
+.row_beneficios > div > h3{
+    font-size: 10px;
+    text-align: center !important;
+    padding-right: 0rem!important;
+}
+
+.row_beneficios > div > p{
+    font-size: 8px;
+    text-align: center !important;
+    padding-right: 0.2rem!important;
+}
+
+.row_beneficios > .beneficios_red > h3{
+    font-size: 10px;
+}
+
+.encaminho{
+    font-size: 12px;
+}
+
+/* SOBRE */
+#img1{
+    -ms-flex-order: -1;
+    order:-1;
+}
+
+.img_sobre{
+    margin-bottom: 1rem !important;
+}
+
+.sobre > div{
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+
+.sobre > div > h3{
+    font-size: 15px;
+}
+
+#frase{
+    font-size: 18px;
+}
+
+/* CONTATO */
+#mapa{
+    height: 40vh;
+    width: 100%;
+    margin-left: 0%;
+    border: 0;
+}
+
+#icon_ende{
+    font-size: 8px;
+    margin-right: 0.25rem!important;
+    margin-top: 0rem!important;
+}
+
+#endereco{
+    font-size: 8px;
+}
+
+.frm_contato{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.frm_contato2{
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+/* IMC */
+.quadro{
+    width: 100%;
+}
+
+input
+{
+    height: 8vh;
+    font-size: 15px;
+}
+
+#resultado{
+    font-size: 10px;
+    height: 20vh;
+    line-height: 6vh;
+}
+
+.input_campo > h2
+{
+    font-size: 15px;
+}
+}
+
+@media (min-width: 375px) and (max-width: 424.98px) {
+    /* HEADER */
+    .navbar-toggler{
+        background-color: #FFED48;
+        margin-right: 1.5rem !important;
+    }
+    .nav-link > h2{
+        font-size: 20px;
+    }
+
+    .nav-link > h2:hover{
+        font-size: 22px;
+    }
+
+    .btn{
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    #icones > li > a > i{
+        font-size: 30px;
+    }
+
+    .div-info{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .div-icones{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-bottom: 1rem !important;
+    }
+
+    .div-links{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .risco{
+        visibility: visible;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #float_btn
+    {
+        bottom: 15vh;
+        right: 3vw;
+    }
+        
+    #float_btn_fundo{
+        bottom: 13vh;
+    }
+
+    /* INDEX */
+    .box{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #carrosel{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .img_carrosel{
+        height: 60vh;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .caixa_promocao{
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+        margin-bottom: 1.5rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .img_promocao{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* PLANOS */
+    .row_subtitulo{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #titulo{
+        font-size: 25px;
+    }
+
+    .row_subtitulo > .col-3{
+        padding-left: 0rem!important;
+    }
+
+    #subtitulo{
+        font-size: 18px;
+    }
+
+    #subtitulo_red{
+        font-size: 18px;
+        text-align: center !important;
+        margin-left: 0rem!important;
+    }
+
+    .row_beneficios{
+        width: 96%;
+        margin-left: 2%;
+        font-size: 15px;
+        margin-bottom: 1rem !important;
+    }
+
+    .row_beneficios > .col-6{
+        padding-left: 1rem!important;
+    }
+
+    .row_beneficios > .col-3{
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+
+
+    .row_beneficios > div > h2{
+        font-size: 14px;
+    }
+
+    .row_beneficios > div > h3{
+        font-size: 12px;
+        text-align: center !important;
+    }
+
+    .row_beneficios > div > p{
+        font-size: 8px;
+        text-align: center !important;
+        padding-right: 0rem!important;
+    }
+
+    .row_beneficios > .beneficios_red > h3{
+        font-size: 11px;
+    }
+
+    .encaminho{
+        font-size: 15px;
+    }
+
+    /* SOBRE */
+    #img1{
+        -ms-flex-order: -1;
+        order:-1;
+    }
+
+    .img_sobre{
+        margin-bottom: 1rem !important;
+    }
+
+    .sobre > div{
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .sobre > div > h3{
+        font-size: 15px;
+    }
+
+    #frase{
+        font-size: 18px;
+    }
+
+    /* CONTATO */
+    #mapa{
+        height: 40vh;
+        width: 100%;
+        margin-left: 0%;
+        border: 0;
+    }
+
+    #icon_ende{
+        font-size: 10px;
+        margin-right: 0.25rem!important;
+        margin-top: 0rem!important;
+    }
+
+    #endereco{
+        font-size: 10px;
+    }
+
+    .frm_contato{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .frm_contato2{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* IMC */
+    .quadro{
+        width: 100%;
+    }
+
+    input
+    {
+        height: 7vh;
+        font-size: 15px;
+    }
+
+    #resultado{
+        font-size: 10px;
+        height: 20vh;
+        line-height: 9vh;
+    }
+
+    .input_campo > h2
+    {
+        font-size: 20px;
+    }
+
+}
+
+@media (min-width: 425px) and (max-width: 767.98px) {
+
+    /* HEADER */
+    .navbar-toggler{
+        background-color: #FFED48;
+        margin-right: 1.5rem !important;
+    }
+    .nav-link > h2{
+        font-size: 20px;
+    }
+
+    .nav-link > h2:hover{
+        font-size: 22px;
+    }
+
+    .btn{
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    #icones > li > a > i{
+        font-size: 30px;
+    }
+
+    .div-info{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+
+    .div-icones{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-bottom: 1rem !important;
+    }
+
+    .div-links{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .risco{
+        visibility: visible;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    #float_btn
+    {
+        bottom: 15vh;
+        right: 3vw;
+    }
+        
+    #float_btn_fundo{
+        bottom: 13vh;
+    }
+
+    /* INDEX */
+    .box{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #carrosel{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .img_carrosel{
+        height: 40vh;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    .caixa_promocao{
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+        margin-bottom: 1.5rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .img_promocao{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* PLANOS */
+    .row_subtitulo{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #titulo{
+        font-size: 25px;
+    }
+
+    .row_subtitulo > .col-3{
+        padding-left: 0rem!important;
+    }
+
+    #subtitulo{
+        font-size: 18px;
+    }
+
+    #subtitulo_red{
+        font-size: 18px;
+        text-align: center !important;
+        margin-left: 0rem!important;
+    }
+
+    .row_beneficios{
+        width: 96%;
+        margin-left: 2%;
+        font-size: 15px;
+        margin-bottom: 1rem !important;
+    }
+
+    .row_beneficios > .col-6{
+        padding-left: 1rem!important;
+    }
+
+    .row_beneficios > .col-3{
+        padding-left: 0rem!important;
+        padding-right: 0rem!important;
+    }
+
+
+    .row_beneficios > div > h2{
+        font-size: 14px;
+    }
+
+    .row_beneficios > div > h3{
+        font-size: 12px;
+        text-align: center !important;
+    }
+
+    .row_beneficios > div > p{
+        font-size: 8px;
+        text-align: center !important;
+        padding-right: 0rem!important;
+    }
+
+    .row_beneficios > .beneficios_red > h3{
+        font-size: 11px;
+    }
+
+    .encaminho{
+        font-size: 15px;
+    }
+
+    /* SOBRE */
+    #img1{
+        -ms-flex-order: -1;
+        order:-1;
+    }
+
+    .img_sobre{
+        margin-bottom: 1rem !important;
+    }
+
+    .sobre > div{
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .sobre > div > h3{
+        font-size: 15px;
+    }
+
+    #frase{
+        font-size: 18px;
+    }
+
+    /* CONTATO */
+    #mapa{
+        height: 40vh;
+        width: 100%;
+        margin-left: 0%;
+        border: 0;
+    }
+
+    #icon_ende{
+        font-size: 10px;
+        margin-right: 0.25rem!important;
+        margin-top: 0rem!important;
+    }
+
+    #endereco{
+        font-size: 10px;
+    }
+
+    .frm_contato{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .frm_contato2{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* IMC */
+    .quadro{
+        width: 100%;
+    }
+
+    input
+    {
+        height: 7vh;
+        font-size: 15px;
+    }
+
+    #resultado{
+        font-size: 12px;
+        height: 20vh;
+        line-height: 9vh;
+    }
+
+    .input_campo > h2
+    {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* HEADER */
+    .navbar-toggler{
+        background-color: #FFED48;
+        margin-right: 1.5rem !important;
+    }
+
+    /* FOOTER */
+    .div-info{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: -1;
+        order: -1;
+    }
+    
+    .div-icones{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        -ms-flex-order: 1;
+        order: 1;
+        margin-bottom: 1rem !important;
+    }
+
+    .div-links{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 20px;
+        -ms-flex-order: 0;
+        order: 0;
+    }
+
+    .risco{
+        visibility: visible;
+        -ms-flex-order: 0;
+        order: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    #float_btn_fundo{
+        bottom: 6vh;
+    }
+
+    /* INDEX */
+    .box{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #carrosel{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .img_carrosel{
+        height: 100vh;
+    }
+
+    .caixa_promocao{
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+        margin-bottom: 1.5rem !important;
+        margin-top: 1.5rem !important;
+    }
+
+    .img_promocao{
+        width: 250px;
+        height: 250px;
+    }
+
+    /* PLANOS */
+    .row_subtitulo{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #titulo{
+        font-size: 30px;
+    }
+
+    #subtitulo{
+        font-size: 20px
+    }
+
+    #subtitulo_red{
+        font-size: 20px;
+        text-align: center !important;
+    }
+
+    .row_beneficios{
+        width: 96%;
+        margin-left: 2%;
+        font-size: 15px;
+    }
+
+    .row_beneficios > div > h2{
+        font-size: 17px;
+    }
+
+    .row_beneficios > div > h3{
+        font-size: 17px;
+        padding-right: 0 !important;
+    }
+
+    .row_beneficios > div > p{
+        font-size: 12px;
+        padding-right: 0 !important;
+    }
+
+    .preco{
+        padding-right: 1.5rem !important;
+    }
+
+    /* SOBRE */
+    #img1{
+        -ms-flex-order: -1;
+        order:-1;
+    }
+
+    .img_sobre{
+        margin-bottom: 1rem !important;
+    }
+
+    .sobre > div{
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .sobre > div > h3{
+        font-size: 18px;
+    }
+
+    #frase{
+        font-size: 20px;
+    }
+
+    /* CONTATO */
+    #mapa{
+        height: 60vh;
+        width: 96%;
+        margin-left: 2%;
+        border: 0;
+    }
+
+    #icon_ende{
+        font-size: 18px;
+        margin-right: 0.25rem!important;
+        margin-top: 0rem!important;
+    }
+    
+    #endereco{
+        font-size: 18px;
+    }
+
+    .frm_contato{
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .frm_contato2{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    /* IMC */
+    .quadro{
+        width: 80%;
+    }
+
+    input
+    {
+        height: 6vh;
+    }
+
+    #resultado{
+        font-size: 22px;
+        height: 16vh;
+        line-height: 8vh;
+    }
+    
+    .input_campo > h2
+    {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* HEADER */
+    .navbar-brand > img{
+        width: 80px;
+        height: 80px;
+    }
+    
+    .nav-link > h2{
+        font-size: 20px;
+    }
+
+    .nav-link > h2:hover{
+        font-size: 22px;
+    }
+    
+    .btn{
+        font-size: 20px;
+    }
+
+    /* FOOTER */
+    #float_btn_fundo{
+        bottom: 7.2vh;
+    }
+
+    .info{
+        font-size: 13px;
+    }
+
+    #icones{
+        margin-top: 1.5rem !important;
+    }
+
+    /* INDEX */
+    .box{
+        width: 96%;
+        margin-left: 2%;
+        background-color: #20052C; 
+        border-radius: 30px;
+    }
+
+    .titulo{
+        font-size: 30px;
+    }
+
+    #carrosel{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    .img_carrosel{
+        height: 80vh;
+    }
+
+    .img_promocao{
+        width: 200px;
+        height: 200px;
+    }
+
+    .caixa_promocao > h2{
+        font-size: 23px;
+    }
+
+    .caixa_promocao > h4{
+        font-size: 20px;
+    }
+
+    #btn_promocao{
+        font-size: 15px;
+    }
+
+    /*PLANOS*/
+    .row_subtitulo{
+        width: 96%;
+        margin-left: 2%;
+    }
+
+    #subtitulo{
+        font-size: 16px
+    }
+
+    #subtitulo_red{
+        font-size: 16px
+    }
+
+    .row_beneficios{
+        width: 96%;
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .row_beneficios > div > h2{
+        font-size: 20px;
+    }
+
+    .row_beneficios > div > h3{
+        font-size: 20px;
+    }
+
+    .row_beneficios > div > p{
+        font-size: 13px;
+    }
+
+    /*SOBRE*/
+    .row > div > h3{
+        font-size: 20px;
+    }
+
+    #frase{
+        font-size: 25px;
+    }
+
+    /*CONTATO*/
+    #mapa{
+        height: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        border: 0;
+    }
+
+    /*IMC*/
+    .quadro{
+        width: 60%;
+    }
+
+    input
+    {
+        height: 6vh;
+    }
+
+    #resultado{
+        font-size: 22px;
+        height: 16vh;
+        line-height: 8vh;
+    }
+    
+    .input_campo > h2
+    {
+        font-size: 25px;
+    }
+}
